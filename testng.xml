@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Event Cinemas Example">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="url" value="https://www.eventcinemas.com.au/"/>
+    <test name="Book a movie">
+            <classes>
+                <class name="au.com.eventcinemas.tests.BookMovieTest"/>
+            </classes>
+    </test>
+</suite>
