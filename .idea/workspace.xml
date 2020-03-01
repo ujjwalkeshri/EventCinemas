@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41e0a714-9aa5-4afe-97dd-06a54d41122f" name="Default Changelist" comment="" />
+    <list default="true" id="41e0a714-9aa5-4afe-97dd-06a54d41122f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EventCinemas/au/com/eventcinemas/pagefactory/NowShowingMoviesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EventCinemas/au/com/eventcinemas/pagefactory/NowShowingMoviesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EventCinemas/au/com/eventcinemas/tests/BookMovieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EventCinemas/au/com/eventcinemas/tests/BookMovieTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/au/com/eventcinemas/pagefactory/MovieDescriptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/au/com/eventcinemas/pagefactory/MovieDescriptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/au/com/eventcinemas/pagefactory/TicketsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/au/com/eventcinemas/pagefactory/TicketsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/au/com/eventcinemas/tests/BookMovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/au/com/eventcinemas/tests/BookMovieTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YTuF2304cm8BWmUx7ghb13us1h" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -36,7 +48,25 @@
       <recent name="D:\TestProject\EventCinemas\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.D:/TestProject/EventCinemas/testng.xml">
+    <configuration name="BookMovieTest.bookMovieTickets" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EventCinemas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="au.com.eventcinemas.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="au.com.eventcinemas.tests" />
+      <option name="MAIN_CLASS_NAME" value="au.com.eventcinemas.tests.BookMovieTest" />
+      <option name="METHOD_NAME" value="bookMovieTickets" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/TestProject/EventCinemas/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EventCinemas" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -50,6 +80,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/TestProject/EventCinemas/testng.xml" />
+        <item itemvalue="TestNG.BookMovieTest.bookMovieTickets" />
       </list>
     </recent_temporary>
   </component>
@@ -75,22 +106,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582979225374" />
-    <state width="1322" height="167" key="GridCell.Tab.0.bottom" timestamp="1582987362168">
+    <state width="1322" height="167" key="GridCell.Tab.0.bottom" timestamp="1583026697298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582987362168" />
-    <state width="1322" height="167" key="GridCell.Tab.0.center" timestamp="1582987362168">
+    <state width="1322" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583026697298" />
+    <state width="1322" height="167" key="GridCell.Tab.0.center" timestamp="1583026697297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582987362168" />
-    <state width="1322" height="167" key="GridCell.Tab.0.left" timestamp="1582987362168">
+    <state width="1322" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583026697297" />
+    <state width="1322" height="167" key="GridCell.Tab.0.left" timestamp="1583026697297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582987362168" />
-    <state width="1322" height="167" key="GridCell.Tab.0.right" timestamp="1582987362168">
+    <state width="1322" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583026697297" />
+    <state width="1322" height="167" key="GridCell.Tab.0.right" timestamp="1583026697297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582987362168" />
+    <state width="1322" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583026697297" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1582982998095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -22,7 +22,7 @@ public class MovieDescriptionPage {
     @FindBy(css = "div#add-cinemas")
     WebElement btnAddCinema;
 
-    @FindBy(css = "div[class*='fave-states'] span[class='state'][data-state='NSW']")
+    @FindBy(css = "div#add-cinemas span[class='state'][data-state='NSW']")
     WebElement btnNSWLocation;
 
     @FindBy(css = "div#add-cinemas a[data-name='Parramatta'][id*='cinema-select']")

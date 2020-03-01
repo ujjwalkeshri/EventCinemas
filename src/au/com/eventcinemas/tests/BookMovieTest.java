@@ -47,10 +47,11 @@ public class BookMovieTest extends BaseSetup {
         TicketsPage ticketsPage = seatSelectionPage.selectAvailableSeatAndProceed();
 
         //select two Adult tickets
-        ticketsPage.selectNumberOfAdultTickets("2");
+        String indPrice = ticketsPage.selectNumberOfAdultTickets("2");
+        Assert.assertEquals(indPrice, "21");
 
-        //Assert total price of the booking including booking fee
-        
+        //Assert total price of the booking including booking fee 21*2+1.50*2=45
+        Assert.assertTrue(ticketsPage.validateTotalBookingPrice(),"Total Booking price does not match");
 
 
     }

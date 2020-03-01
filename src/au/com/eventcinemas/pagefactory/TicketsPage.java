@@ -20,6 +20,9 @@ public class TicketsPage {
     @FindBy(css = "select.qty")
     List<WebElement> ticketTypeAndQuantity;
 
+    @FindBy(css = "div.tickets-wrapper-side-summary div[class='item total'] > span.price")
+    WebElement totalBookingPrice;
+
     public TicketsPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -28,6 +31,7 @@ public class TicketsPage {
     public String selectNumberOfAdultTickets(String qty) {
         String individualTicketPrice="";
         for (WebElement ticketType : ticketTypeAndQuantity) {
+            System.out.println("ticket type = "+ticketType.getAttribute("data-ticket"));
             if (ticketType.getAttribute("data-ticket").contains("\"Name\":\"Adult\"")) {
                 String details = ticketType.getAttribute("data-ticket");
                 String[] temp = details.split(",");
@@ -37,9 +41,15 @@ public class TicketsPage {
                     }
                 }
                 new Select(ticketType).selectByValue(qty);
+                break;
             }
         }
         return individualTicketPrice;
+    }
+
+    public boolean validateTotalBookingPrice(){
+        String expected = "$45.00";
+        return expected.equals(totalBookingPrice.getText());
     }
 
 }
